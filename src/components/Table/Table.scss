@@ -1,0 +1,12 @@
+.ag-row {
+    .ag-cell {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Show only pagination buttons; hide page size selector and page info text */
+.ag-paging-row-summary-panel,
+.ag-paging-page-size {
+    display: none !important;
+}

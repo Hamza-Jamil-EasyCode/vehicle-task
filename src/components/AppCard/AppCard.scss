@@ -1,0 +1,29 @@
+.app-card-wrapper {
+    padding: 25px;
+    border-radius: 10px !important;
+}
+
+.light-card {
+    border: 1px solid #dedede;
+}
+
+.dark-card {
+    border: 1px solid #2b2b2b;
+}
+
+.hover-card {
+    transform: scale(1);
+    transition: transform 0.1s ease-out;
+    cursor: pointer;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.1s ease-out;
+    }
+}
+
+.child-card {
+    padding: 10px 20px;
+}

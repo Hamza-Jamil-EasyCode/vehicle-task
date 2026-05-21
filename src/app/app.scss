@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/gilroy-semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.__className_36bd41 {
+    overflow-y: auto !important;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+// Form field helper text
+
+.css-1wc848c-MuiFormHelperText-root {
+    margin-left: 0px !important;
+}
