@@ -1,0 +1,65 @@
+.custom_text-field,
+.custom_select-field {
+    margin-block: 10px !important;
+
+    .clickable-icon {
+        cursor: pointer;
+    }
+
+    .MuiOutlinedInput-root {
+        border-radius: 5px !important;
+    }
+}
+
+.phone-input-field-wrapper {
+    .selected-flag {
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
+    }
+    &.theme-dark {
+        .flag-dropdown {
+            background-color: #333;
+            .selected-flag {
+                background-color: #333 !important;
+            }
+            .country-list {
+                background-color: #212121;
+                .country {
+                    &:hover {
+                        background-color: #414141;
+                    }
+                }
+                .active {
+                    background-color: #333 !important;
+                }
+            }
+        }
+    }
+
+    .react-tel-input {
+        margin-top: 10px !important;
+        input {
+            width: 100% !important;
+            height: 100% !important;
+            max-height: 56px !important;
+            min-height: 56px !important;
+            border-radius: 5px !important;
+            border-color: rgb(99, 99, 99) !important;
+
+            &:hover {
+                border-color: rgb(129, 129, 129) !important;
+            }
+        }
+        .flag-dropdown {
+            border-top-left-radius: 5px !important;
+            border-bottom-left-radius: 5px !important;
+            height: 100% !important;
+            max-height: 56px !important;
+            min-height: 56px !important;
+            border-color: rgb(99, 99, 99) !important;
+            &:hover {
+                border-color: rgb(129, 129, 129) !important;
+            }
+        }
+    }
+}

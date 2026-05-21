@@ -1,0 +1,12 @@
+.no-data-text-wrapper {
+    margin-block: 50px;
+    .no-data-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        canvas {
+            max-width: 500px;
+            max-height: 500px;
+        }
+    }
+}

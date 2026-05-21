@@ -1,0 +1,12 @@
+.custom_drawer-wrapper {
+    .MuiDrawer-paper {
+        border: none;
+    }
+    .custom_list-item {
+        padding-inline: 0px;
+        .list_item-icon {
+            min-width: auto;
+            margin-right: 5px;
+        }
+    }
+}

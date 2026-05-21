@@ -1,0 +1,79 @@
+@use '@common/media' as *;
+
+.auth-layout-wrapper {
+    min-height: 100vh;
+
+    .auth-layout-slogan-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 2;
+
+        @include respond-to($tab-screen) {
+            display: none;
+        }
+
+        .slogan-image {
+            width: 100%;
+            height: 100%;
+            max-width: 650px;
+            min-width: 450px;
+            max-height: 600px;
+            min-height: 450px;
+        }
+
+        h6 {
+            color: #fff;
+        }
+    }
+
+    .auth-layout-children-wrapper {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 25px;
+
+        @include respond-to($tab-screen) {
+            border-radius: unset;
+        }
+
+        .app-logo {
+            background-color: #fff;
+            border-radius: 50%;
+            margin-block: 10px;
+        }
+
+        .auth-form-wrapper {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+
+            .auth-text-wrapper {
+                margin-block: 20px;
+                h2 {
+                    font-size: 1.5rem !important;
+                    font-weight: 600;
+                }
+            }
+
+            .auth-form-submit-btn {
+                margin-block: 20px;
+            }
+
+            .register-form-fields-wrapper {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 15px;
+
+                @include respond-to($mobile-screen) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

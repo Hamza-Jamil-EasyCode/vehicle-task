@@ -1,0 +1,10 @@
+@use 'media' as *;
+
+:export {
+    smallScreen: $small-screen;
+    mobileScreen: $mobile-screen;
+    tabScreen: $tab-screen;
+    laptopScreen: $laptop-screen;
+    computerScreen: $computer-screen;
+    largeScreen: $large-screen
+}

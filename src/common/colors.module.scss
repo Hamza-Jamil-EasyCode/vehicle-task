@@ -1,0 +1,32 @@
+// Shared across both themes
+$primary-color: #f51868;
+$primary-contrast-color: #2d93d2;
+$secondary-color: #643593;
+
+// Light theme
+$light-paper-color: #fff;
+$light-table-background-color: #313131;
+$light-footer-background-color: #f9f8fe;
+$light-background-color: #f9f8fe;
+$light-text-color: #8b8b8b;
+
+// Dark theme
+$dark-paper-color: #010409;
+$dark-background-color: #0d1117;
+$dark-footer-background-color: #06080b;
+$heading-color: #636262;
+
+:export {
+  primaryColor: $primary-color;
+  primaryContrastColor: $primary-contrast-color;
+  secondaryColor: $secondary-color;
+  lightPaperColor: $light-paper-color;
+  lightTableBackgroundColor: $light-table-background-color;
+  lightFooterBackgroundColor: $light-footer-background-color;
+  lightBackgroundColor: $light-background-color;
+  lightTextColor: $light-text-color;
+  darkPaperColor: $dark-paper-color;
+  darkBackgroundColor: $dark-background-color;
+  darkFooterBackgroundColor: $dark-footer-background-color;
+  headingColor: $heading-color;
+}

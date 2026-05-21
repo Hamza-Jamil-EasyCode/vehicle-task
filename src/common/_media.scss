@@ -1,0 +1,23 @@
+// please feel free to override as per your need
+$small-screen: 300px;
+$mobile-screen: 575px;
+$small-tab-screen: 990px;
+$tab-screen: 1280px;
+$laptop-screen: 1440px;
+$computer-screen: 1920px;
+$large-screen: 2048px;
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint ==2049px {
+        @media (min-width: $breakpoint) {
+            @content;
+        }
+    }
+
+    @else {
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    }
+
+}
